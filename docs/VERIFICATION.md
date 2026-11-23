@@ -24,7 +24,7 @@ The patched Python environment advisory scan reported **no known vulnerabilities
 
 - Docker engine was not running, so PostgreSQL Docker migration/runtime checks were not executed locally. GitHub CI is configured to exercise PostgreSQL 16 migrations and seeding after push.
 - No real BigQuery account/credentials were supplied: only failure/unconfigured behaviour is tested, not a successful provider load.
-- No GitHub remote, Vercel deploy, Render service or Supabase instance has been provisioned in this session. The source is committed locally and packaged separately.
+- Source pushed to https://github.com/venkatashreyavella/BUSINESS-DATA-SYSTEM-MANGEMENT on `main`. Vercel deployment, Render service and Supabase provisioning remain pending.
 - No public frontend/API/Swagger URL exists yet. No public access or cross-provider authentication result is claimed.
 - No always-on scheduler or paid Cron service is provisioned.
 

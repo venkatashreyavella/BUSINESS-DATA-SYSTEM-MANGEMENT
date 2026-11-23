@@ -1,17 +1,17 @@
 # Deployment guide
 
-Deployment is **pending**, not completed. The user has GitHub and Vercel accounts; Render, Supabase and Google Cloud access have not been connected. No account secrets are needed in chat. Enter them only in the relevant hosting secret settings or your local private environment.
+Deployment is **pending**, not completed. The source has been pushed to https://github.com/venkatashreyavella/BUSINESS-DATA-SYSTEM-MANGEMENT. The user has a Vercel account; Render, Supabase and Google Cloud access have not been connected. No account secrets are needed in chat. Enter them only in the relevant hosting secret settings or your local private environment.
 
 ## 1. GitHub
 
-1. Sign in at https://github.com and create a new empty repository named `museumos-business-platform`. Choose private or public according to your portfolio preference. Do not initialize a README because source already exists here.
+1. The repository already exists and source has been pushed: https://github.com/venkatashreyavella/BUSINESS-DATA-SYSTEM-MANGEMENT. Use this repository for the deployment steps below.
 2. From this project root, review ignored files and commit source:
 
 ```powershell
 git status --short
 git add .
 git commit -m "Build MuseumOS full-stack business data platform"
-git remote add origin https://github.com/YOUR-USERNAME/museumos-business-platform.git
+git remote -v  # origin is already configured
 git push -u origin main
 ```
 
@@ -103,7 +103,7 @@ Record real values after deployment:
 
 | Item | Verified value |
 |---|---|
-| GitHub repository | Pending |
+| GitHub repository | https://github.com/venkatashreyavella/BUSINESS-DATA-SYSTEM-MANGEMENT (main) |
 | Frontend | Pending |
 | Render backend | Pending |
 | Swagger | Backend + `/docs`, pending |

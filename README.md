@@ -2,7 +2,7 @@
 
 A functional full-stack portfolio application for a fictional interactive museum. Visitors, bookings, data validation, SQL analytics and integrations share a persistent relational data model. All customers and transactions are fictional.
 
-**Deployment status: not deployed.** Public frontend, backend and Swagger URLs are pending account connections and provisioning. No public URL is claimed. Git is initialized locally; no GitHub remote has been created yet.
+**Deployment status: not deployed.** Public frontend, backend and Swagger URLs are pending account connections and provisioning. No public URL is claimed. Source repository: [https://github.com/venkatashreyavella/BUSINESS-DATA-SYSTEM-MANGEMENT](https://github.com/venkatashreyavella/BUSINESS-DATA-SYSTEM-MANGEMENT).
 
 ## Problem and objectives
 
@@ -235,7 +235,7 @@ Follow [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for GitHub → Supabase → Rend
 | Public frontend URL | Pending deployment |
 | Backend URL | Pending Render service |
 | Public Swagger URL | Pending backend URL + `/docs` |
-| GitHub URL | Pending authenticated repository creation/push |
+| GitHub URL | https://github.com/venkatashreyavella/BUSINESS-DATA-SYSTEM-MANGEMENT |
 | Local frontend | http://localhost:5173 while preview is running |
 | Local API docs | http://localhost:8000/docs while backend is running |
 

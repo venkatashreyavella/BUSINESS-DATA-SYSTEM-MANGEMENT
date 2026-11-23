@@ -17,7 +17,7 @@ The request's phases are represented below. Code exists for phases 1–14; hoste
 | 11 React | `src/App.jsx`, layouts/components/pages/styles | `npm run build`, `npm test`; local browser mobile/desktop checks |
 | 12 Reports/jobs | exports, Operations pages, `automation.py` | CSV/XLSX API tests; job uniqueness is enforced by schema |
 | 13 Security/tests | middleware, tests, startup guards, CI | `python -m pytest -q`; `npm test`; `npm audit` |
-| 14 GitHub preparation | `.github/workflows/ci.yml`, README and hosting files | Local Git initialized; remote creation/push pending account connection |
+| 14 GitHub preparation | `.github/workflows/ci.yml`, README and hosting files | Source committed and pushed to the user-specified GitHub repository |
 | 15 Deployment | `render.yaml`, `frontend/vercel.json`, `docs/DEPLOYMENT.md` | Pending Render/Supabase provisioning and authenticated Vercel/GitHub access |
 | 16 Production checks | `docs/VERIFICATION.md` | Pending real public frontend/API URLs |
 
