@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.venv*/
+__pycache__/
+.pytest_cache/
+node_modules/
+.npm-cache/
+.audit-cache/
+museumos-source.zip
+dist/
+*.db
+*.db-*
+*.log
+credentials*.json
+.DS_Store
+coverage/

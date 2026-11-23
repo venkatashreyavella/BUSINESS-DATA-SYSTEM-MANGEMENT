@@ -1,0 +1,28 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: museum
+      POSTGRES_PASSWORD: museum
+      POSTGRES_DB: museum
+    ports: ["5432:5432"]
+    volumes: ["museum_pg:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U museum"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  api:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://museum:museum@db:5432/museum
+      SECRET_KEY: local-docker-development-key-not-for-production
+      ALLOWED_ORIGINS: http://localhost:5173
+      DEMO_SEED: "true"
+      SCHEDULER_ENABLED: "false"
+    ports: ["8000:8000"]
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  museum_pg:

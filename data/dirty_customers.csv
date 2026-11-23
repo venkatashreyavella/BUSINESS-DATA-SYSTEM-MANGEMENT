@@ -1,0 +1,12 @@
+id,name,email,phone,status
+1001,Amira Visitor 1,not-an-email,+971500000000,active
+1002,,fictional2@example.com,+971500000001,active
+1003,Maya Visitor 3,,+971500000002,active
+1004,Noah Visitor 4,fictional4@example.com,bad-phone,active
+1005,Amira Visitor 5,fictional5@example.com,+971500000004,active
+1006,Oliver Visitor 6,fictional6@example.com,+971500000005,active
+1007,Maya Visitor 7,fictional7@example.com,+971500000006,active
+1008,Noah Visitor 8,fictional8@example.com,+971500000007,active
+1009,Amira Visitor 9,fictional9@example.com,+971500000008,active
+1010,Oliver Visitor 10,fictional10@example.com,+971500000009,active
+1005,Amira Visitor 5,fictional5@example.com,+971500000004,active

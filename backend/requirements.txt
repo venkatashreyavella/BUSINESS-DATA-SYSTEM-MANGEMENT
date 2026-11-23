@@ -1,0 +1,16 @@
+fastapi==0.162.5
+starlette==1.7.0
+uvicorn[standard]==0.34.2
+SQLAlchemy==2.0.40
+psycopg[binary]==3.2.9
+pydantic[email]==2.11.4
+python-multipart==0.0.32
+dnspython==2.9.2
+pwdlib[argon2]==0.2.1
+pandas==2.2.3
+openpyxl==3.1.5
+alembic==1.15.2
+google-cloud-bigquery==3.38.0
+httpx==0.28.1
+pytest==9.2.0
+APScheduler==3.11.0
